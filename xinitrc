@@ -1,5 +1,6 @@
 # Wallpaper and colorschemes
 wal -R
+betterlockscreen --update ~/bg.jpg
 
 # Xresources
 xrdb .Xresources -merge
