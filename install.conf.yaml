@@ -15,6 +15,9 @@
     ~/.ssh/config: sshconfig
     ~/.tmux_local.conf:
     ~/bg.jpg:
+    ~/.config/i3/config: i3config
+    ~/.config/polybar:
+
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
