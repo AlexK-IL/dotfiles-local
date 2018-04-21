@@ -1,0 +1,10 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sda3
+UUID=34d51409-21ec-4f8e-b0c1-032b26466da2	/         	ext4      	rw,relatime,data=ordered	0 1
+
+# /dev/sda2
+UUID=96AE4385AE435D3D	/mnt/windows7	ntfs-3g      	uid=root,gid=root 0 0
+
