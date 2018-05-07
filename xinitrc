@@ -1,12 +1,13 @@
 # Wallpaper and colorschemes
 wal -R
-betterlockscreen --update ~/bg.jpg
+#betterlockscreen --update ~/bg.jpg
 
 # Xresources
 xrdb .Xresources -merge
 
-# Turn off TV display by default
-xrandr --output HDMI-0 --off
+# Configure screens
+xrandr --output VGA1 --primary --size 1280x1024
+xrandr --output LVDS1 --off
 
 # Set languages toggle shortcut
 setxkbmap -layout us,il -option grp:alt_shift_toggle

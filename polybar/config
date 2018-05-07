@@ -15,7 +15,7 @@ unfocused = ${xrdb:color0:#ffffff}
 urgent = ${xrdb:color4:#bd2c40}
 
 [bar/bottom]
-monitor = ${env:MONITOR:LVDS1}
+monitor = ${env:MONITOR:VGA1}
 
 bottom = true
 width = 100%
