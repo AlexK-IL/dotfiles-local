@@ -12,6 +12,7 @@ device-mapper
 dhcpcd
 dialog
 diffutils
+docker
 e2fsprogs
 expac
 fakeroot
@@ -61,6 +62,7 @@ mesa
 nano
 netctl
 ntfs-3g
+ntp
 numlockx
 openssh
 pacman
@@ -83,6 +85,7 @@ systemd
 systemd-sysvcompat
 tamsyn-font
 tar
+terminus-font
 texinfo
 tmux
 transmission-cli
@@ -94,7 +97,6 @@ vim
 weechat
 wget
 which
-wifi-radar
 wpa_supplicant
 xclip
 xf86-video-intel

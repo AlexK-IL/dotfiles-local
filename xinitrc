@@ -12,6 +12,9 @@ xrandr --output LVDS1 --off
 # Set languages toggle shortcut
 setxkbmap -layout us,il -option grp:alt_shift_toggle
 
+# Start wireless network
+wpa_supplicant -B -i wlp3s0 -c wpa-cli-hotspot.conf
+
 # Turn numlock on
 numlockx on
 

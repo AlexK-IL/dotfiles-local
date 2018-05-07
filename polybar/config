@@ -14,6 +14,30 @@ focused = ${xrdb:color2:#ffffff}
 unfocused = ${xrdb:color0:#ffffff}
 urgent = ${xrdb:color4:#bd2c40}
 
+[bar/top]
+monitor = ${env:MONITOR:VGA1}
+
+bottom = false
+width = 100%
+height = 27
+fixed-center = true
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = #f00
+
+border-color = #00000000
+
+font-0 = xos4Terminus:pixelsize=14;0
+font-1 = FontAwesome:pixelsize=14;0
+
+modules-left = i3
+modules-center = title
+modules-right = 
+
+tray-position = right
+
 [bar/bottom]
 monitor = ${env:MONITOR:VGA1}
 
@@ -32,9 +56,9 @@ border-color = #00000000
 font-0 = xos4Terminus:pixelsize=14;0
 font-1 = FontAwesome:pixelsize=14;0
 
-modules-left = i3
-modules-center = title
-modules-right = volume xkeyboard temperature network  battery date
+modules-left = 
+modules-center = volume xkeyboard temperature network battery date
+modules-right = 
 
 tray-position = right
 
@@ -83,7 +107,7 @@ label-muted = 
 type = internal/xkeyboard
 blacklist-0 = num lock
 blacklist-1 = caps lock
-label-layout =   %layout%
+label-layout =  %layout%
 format-margin = 2
 
 [module/temperature]
@@ -160,17 +184,17 @@ format-discharging = <ramp-capacity> <label-discharging>
 ;   %percentage% (default)
 ;   %time%
 ;   %consumption% (shows current charge rate in watts)
-label-charging = Charging %percentage%%
+label-charging = %percentage%%
 
 ; Available tokens:
 ;   %percentage% (default)
 ;   %time%
 ;   %consumption% (shows current discharge rate in watts)
-label-discharging = Discharging %percentage%%
+label-discharging = %percentage%%
 
 ; Available tokens:
 ;   %percentage% (default)
-label-full = Fully charged
+label-full = %percentage%
 
 ; Only applies if <ramp-capacity> is used
 ramp-capacity-0 = 
