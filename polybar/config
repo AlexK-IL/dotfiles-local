@@ -14,7 +14,55 @@ focused = ${xrdb:color2:#ffffff}
 unfocused = ${xrdb:color0:#ffffff}
 urgent = ${xrdb:color4:#bd2c40}
 
-[bar/top]
+[bar/top1]
+monitor = ${env:MONITOR:LVDS1}
+
+bottom = false
+width = 100%
+height = 27
+fixed-center = true
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = #f00
+
+border-color = #00000000
+
+font-0 = xos4Terminus:pixelsize=14;0
+font-1 = FontAwesome:pixelsize=14;0
+
+modules-left = i3
+modules-center = title
+modules-right = 
+
+tray-position = right
+
+[bar/bottom1]
+monitor = ${env:MONITOR:LVDS1}
+
+bottom = true
+width = 100%
+height = 27
+fixed-center = true
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = #f00
+
+border-color = #00000000
+
+font-0 = xos4Terminus:pixelsize=14;0
+font-1 = FontAwesome:pixelsize=14;0
+
+modules-left = 
+modules-center = volume xkeyboard temperature network battery date
+modules-right = 
+
+tray-position = right
+
+[bar/top2]
 monitor = ${env:MONITOR:VGA1}
 
 bottom = false
@@ -38,7 +86,7 @@ modules-right =
 
 tray-position = right
 
-[bar/bottom]
+[bar/bottom2]
 monitor = ${env:MONITOR:VGA1}
 
 bottom = true
