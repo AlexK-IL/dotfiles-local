@@ -170,13 +170,6 @@ label-warn = %temperature-c% TOO HOT
 ramp-0 = 
 ramp-1 = 
 
-[module/network]
-type = internal/network
-format-margin = 2
-interface = enp2s0
-label-connected = 
-label-disconnected =  disconnected
-
 [module/date]
 type = internal/date
 interval = 1
@@ -277,14 +270,14 @@ type = internal/network
 format-margin = 2
 interface = wlp3s0
 label-connected = 
-label-disconnected = X
+label-disconnected =
 
 [module/network-lan]
 type = internal/network
 format-margin = 2
 interface = enp0s25
 label-connected = 
-label-disconnected = X
+label-disconnected =
 
 [settings]
 screenchange-reload = true
