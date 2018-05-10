@@ -6,7 +6,7 @@ wal -R
 xrdb .Xresources -merge
 
 # Configure screens
-xrandr --output VGA1 --primary --size 1280x1024
+xrandr --output VGA1 --primary --size 1280x1024 --same-as LVDS1
 #xrandr --output LVDS1 --off
 
 # Set languages toggle shortcut
