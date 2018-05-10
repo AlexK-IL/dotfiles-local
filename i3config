@@ -131,11 +131,9 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # system commands
-set $system_mode System mode: [e]xit session | [l]ock screen | s[u]spend | [s]hutdown | [r]eboot
+set $system_mode System mode: [e]xit session | [s]hutdown | [r]eboot
 mode "$system_mode" {
         bindsym e mode "default"; exec killall i3
-        bindsym l mode "default"; exec betterlockscreen --lock
-        bindsym u mode "default"; exec betterlockscreen --suspend
         bindsym s mode "default"; exec shutdown now
         bindsym r mode "default"; exec reboot
 

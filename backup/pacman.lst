@@ -1,4 +1,6 @@
+acetoneiso2
 alsa-utils
+ark
 autoconf
 automake
 bash
@@ -17,7 +19,9 @@ e2fsprogs
 expac
 fakeroot
 feh
+ffmpegthumbnailer
 file
+file-roller
 filesystem
 findutils
 firefox
@@ -47,6 +51,7 @@ konsole
 lastpass-cli
 less
 lib32-mesa
+libisoburn
 libtool
 licenses
 linux
@@ -65,6 +70,7 @@ ntfs-3g
 ntp
 numlockx
 openssh
+p7zip
 pacman
 patch
 pciutils
@@ -87,9 +93,15 @@ tamsyn-font
 tar
 terminus-font
 texinfo
+thunar
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-volman
 tmux
 transmission-cli
+tumbler
 udevil
+unrar
 usbutils
 util-linux
 vi
@@ -98,6 +110,7 @@ weechat
 wget
 which
 wpa_supplicant
+xarchiver
 xclip
 xf86-video-intel
 xfsprogs
