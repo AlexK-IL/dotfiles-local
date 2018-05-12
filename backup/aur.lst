@@ -34,6 +34,7 @@ libtxc_dxtn
 lineageos-devel
 mecab
 mecab-ipadic
+namebench
 ncurses5-compat-libs
 oh-my-zsh-git
 oomox
@@ -51,6 +52,7 @@ python-progress
 python-pybitbucket_fork-git
 python-pywal
 python-slugify
+python2-graphy
 qt5-webengine-widevine
 qtwebflix-git
 ranger-git
