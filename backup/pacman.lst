@@ -103,6 +103,8 @@ ntfs-3g
 ntp
 numlockx
 nvidia
+nvidia-lts
+nvidia-settings
 nvidia-utils
 opencl-headers
 openssh
@@ -213,6 +215,7 @@ xorg-xfontsel
 xorg-xinit
 xorg-xrandr
 xterm
+youtube-dl
 zenity
 zsh
 zsh-completions
