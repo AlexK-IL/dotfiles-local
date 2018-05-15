@@ -42,9 +42,11 @@ oomox
 orbit2
 pacaur
 papirus-icon-theme-git
+perl-extract-url-git
 perl-gnome2-wnck
 perl-gtk2-imageview
 perl-gtk2-unique
+perl-uri-find
 polybar-git
 python-github3
 python-gitlab
@@ -66,5 +68,6 @@ transmission-remote-cli-git
 ttf-font-awesome-4
 ttf-openlogos-archupdate
 ttf-unifont
+urlview
 xkb-switch
 xml2
