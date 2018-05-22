@@ -44,6 +44,7 @@ gzip
 highlight
 i3-gaps
 i3blocks
+i3lock
 i3status
 inetutils
 intel-ucode
@@ -92,6 +93,7 @@ redshift
 reiserfsprogs
 rofi
 s-nail
+scrot
 sed
 shadow
 sudo
@@ -122,6 +124,7 @@ w3m
 weechat
 wget
 which
+wmctrl
 wpa_supplicant
 xarchiver
 xclip

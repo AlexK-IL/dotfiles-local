@@ -22,3 +22,5 @@
     - [git submodule update --init --recursive, Installing submodules]
     - [mkdir -p ~/gitprojects, Creating gitprojects folder ]
     - [mkdir -p ~/mnt, Creating ~/mnt folder for mounting ]
+    - [cp services/* /etc/systemd/system/, Copying custom services ]
+    - [systemctl enable lock.service, Enabling lock after wakeup service ]
