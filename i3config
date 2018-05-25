@@ -134,8 +134,8 @@ bindsym $mod+Shift+r restart
 set $system_mode System mode: [e]xit session | [l]ock screen | s[u]spend | [s]hutdown | [r]eboot
 mode "$system_mode" {
         bindsym e mode "default"; exec killall i3
-        bindsym l mode "default"; exec betterlockscreen --lock
-        bindsym u mode "default"; exec betterlockscreen --suspend
+        bindsym l mode "default"; exec /home/alex/.dotfiles-local/bin/lock.sh
+        bindsym u mode "default"; exec systemctl suspend
         bindsym s mode "default"; exec shutdown now
         bindsym r mode "default"; exec reboot
 
