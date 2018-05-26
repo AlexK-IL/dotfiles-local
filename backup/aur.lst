@@ -38,6 +38,7 @@ mecab
 mecab-ipadic
 namebench
 ncurses5-compat-libs
+nerd-fonts-complete-mono-glyphs
 oh-my-zsh-git
 oomox
 orbit2
@@ -58,9 +59,11 @@ python-pybitbucket_fork-git
 python-pywal
 python-slugify
 python2-graphy
+python3-kitchen
 qt5-webengine-widevine
 qtwebflix-git
 ranger-git
+rtv
 shutter
 siji-git
 simple-mtpfs
