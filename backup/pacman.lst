@@ -18,6 +18,8 @@ dhcpcd
 dialog
 diffutils
 docker
+docker-compose
+docker-machine
 e2fsprogs
 expac
 fakeroot
