@@ -5,10 +5,6 @@ wal -R
 # Xresources
 xrdb .Xresources -merge
 
-# Configure screens
-xrandr --output VGA1 --primary --size 1280x1024
-xrandr --output LVDS1 --off
-
 # Set languages toggle shortcut
 setxkbmap -layout us,il -option grp:alt_shift_toggle
 
