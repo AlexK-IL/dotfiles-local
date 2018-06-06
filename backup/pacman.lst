@@ -51,6 +51,7 @@ gradle
 grep
 groff
 grub
+gtkglext
 gucharmap
 gzip
 highlight
@@ -71,6 +72,7 @@ less
 lhasa
 lib32-nvidia-utils
 lib32-opencl-nvidia
+libcurl-compat
 libgsf
 libmtp
 libopenraw
@@ -120,11 +122,13 @@ pepper-flash
 perl
 perl-curses-ui
 perl-image-exiftool
-pkg-config
+pkgconf
 playonlinux
 procps-ng
 psmisc
 pulseaudio
+python-pywal
+python-regex
 python-xdg
 qt5-3d
 qt5-base

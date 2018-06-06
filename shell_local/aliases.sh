@@ -1,11 +1,9 @@
 # Local aliases
-alias pacaur='pacaur --aur' # Run pacaur only with aur
-alias auri='pacaur -y'
-alias paci='sudo pacman -S'
-alias pacrm='sudo pacman -Rns'
-alias pacup='sudo pacman -Syyu'
-alias pacinfo='pacman -Qi'
-alias pacsearch='pacman -Ss'
+alias auri='aurman -S'
+alias aurup='aurman -Syyu'
+alias aurrm='aurman -Rns'
+alias aurinfo='aurman -Qi'
+alias aursearch='aurman -Ss'
 alias copy='xclip -selection clipboard -in'
 alias paste='xclip -selection clipboard -out'
 alias tmuxcp='tmux show-buffer | copy'
