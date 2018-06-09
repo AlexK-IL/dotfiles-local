@@ -75,7 +75,7 @@ type = internal/xwindow
 format-margin = 2
 
 [module/volume]
-type = internal/alsa
+type = internal/pulseaudio
 format-volume = <label-volume>
 label-volume =  %percentage%%
 label-muted = 
