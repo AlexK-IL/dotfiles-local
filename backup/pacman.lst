@@ -26,7 +26,6 @@ diffutils
 e2fsprogs
 easystroke
 efibootmgr
-expac
 fakeroot
 feh
 file
@@ -117,7 +116,6 @@ pacman
 patch
 pavucontrol
 pciutils
-pcmciautils
 pepper-flash
 perl
 perl-curses-ui

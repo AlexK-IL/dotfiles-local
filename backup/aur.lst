@@ -7,6 +7,7 @@ burpsuite
 cdm-git
 cower
 culmus
+expac-git
 ffmpeg-compat-54
 git-repo
 glade-gtk2
@@ -56,11 +57,9 @@ python-mal-git
 python-pybitbucket_fork-git
 python-slugify
 python2-graphy
-python3-kitchen
 qt5-webengine-widevine
 qtwebflix-git
 ranger-git
-rtv
 shutter
 siji-git
 simple-mtpfs
