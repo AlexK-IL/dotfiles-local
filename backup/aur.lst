@@ -16,6 +16,7 @@ gnome-perl
 gnome-vfs-nosmb
 gnome-vfs-perl
 gnomecanvas-perl
+goocanvas1
 google-chrome
 gtk-theme-numix-solarized
 hugs
@@ -23,6 +24,7 @@ i3lock-fancy-git
 kanjistrokeorders-ttf
 kcc
 kindlegen
+lcms
 lib32-ncurses5-compat-libs
 libavutil-52
 libbonobo
@@ -30,7 +32,7 @@ libbonoboui
 libgnome
 libgnome-data
 libgnomeui
-libxfce4ui-devel
+libxfce4ui-git
 libxfce4util-devel
 lineageos-devel
 mecab
@@ -43,17 +45,18 @@ oomox
 orbit2
 pacaur
 papirus-icon-theme-git
+perl-cpanel-json-xs
 perl-extract-url-git
 perl-gnome2-wnck
+perl-goo-canvas
 perl-gtk2-imageview
 perl-gtk2-unique
+perl-json-maybexs
 perl-uri-find
 polybar-git
-python-decorating
 python-github3
 python-gitlab
 python-gogs-client
-python-mal-git
 python-pybitbucket_fork-git
 python-slugify
 python2-graphy

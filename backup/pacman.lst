@@ -33,12 +33,14 @@ file-roller
 filesystem
 findutils
 firefox
+firefox-developer-edition
 flashplugin
 flex
 fzf
 gawk
 gcc
 gcc-libs
+gdb
 gettext
 ghc
 gimp
@@ -211,6 +213,7 @@ wmctrl
 xarchiver
 xbindkeys
 xclip
+xf86-video-intel
 xf86-video-nouveau
 xf86-video-vesa
 xfsprogs

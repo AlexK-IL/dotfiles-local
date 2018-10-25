@@ -1,6 +1,6 @@
 # Local aliases
-alias auri='aurman -S'
-alias aurup='aurman -Syyu'
+alias auri='aurman -S --noconfirm'
+alias aurup='aurman -Syyu --noconfirm'
 alias aurrm='aurman -Rns'
 alias aurinfo='aurman -Qi'
 alias aursearch='aurman -Ss'
