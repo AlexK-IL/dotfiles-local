@@ -82,6 +82,7 @@ licenses
 linux
 logrotate
 lshw
+lsof
 lvm2
 m4
 make
@@ -94,6 +95,7 @@ mesa
 mupdf
 nano
 netctl
+networkmanager
 nodejs
 npm
 ntfs-3g
@@ -117,7 +119,11 @@ psmisc
 pulseaudio-bluetooth
 pulsemixer
 python-chardet
+python-pip
+python-pipenv
 python-pywal
+python-virtualenv
+qemu
 redshift
 reiserfsprogs
 rofi

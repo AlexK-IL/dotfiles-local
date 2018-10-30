@@ -23,6 +23,9 @@ compton --daemon --shadow --fading
 # Start redshift
 redshift -l 32.333:34.86 &> /dev/null &
 
+# Start pulseaudio so I can connect bluetooth devices
+#pulseaudio --start
+
 # Start a browser
 firefox &
 
