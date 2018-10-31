@@ -124,6 +124,7 @@ python-pip
 python-pipenv
 python-pywal
 python-virtualenv
+python-virtualenvwrapper
 qemu
 redshift
 reiserfsprogs
