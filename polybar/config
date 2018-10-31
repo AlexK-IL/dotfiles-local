@@ -13,6 +13,8 @@ foreground = ${xrdb:color7:#222}
 focused = ${xrdb:color2:#ffffff}
 unfocused = ${xrdb:color0:#ffffff}
 urgent = ${xrdb:color4:#bd2c40}
+fg1 = #F00
+fg2 = #0F0
 
 [bar/top1]
 monitor = ${env:MONITOR:LVDS1}
@@ -34,7 +36,7 @@ font-1 = FontAwesome:pixelsize=14;0
 
 modules-left = i3
 modules-center = title
-modules-right = 
+modules-right =
 
 tray-position = right
 
@@ -57,7 +59,7 @@ font-0 = xos4Terminus:pixelsize=14;0
 font-1 = FontAwesome:pixelsize=14;0
 
 modules-left = 
-modules-center = volume xkeyboard network-wifi network-lan temperature network battery date
+modules-center = volume xkeyboard network-wifi network-lan memory swap temperature network battery date time
 modules-right = 
 
 tray-position = right
@@ -105,7 +107,7 @@ font-0 = xos4Terminus:pixelsize=14;0
 font-1 = FontAwesome:pixelsize=14;0
 
 modules-left = 
-modules-center = volume xkeyboard network-wifi network-lan temperature network battery date
+modules-center = 
 modules-right = 
 
 tray-position = right
@@ -147,12 +149,15 @@ format-margin = 2
 
 [module/volume]
 type = internal/alsa
+format-volume-foreground = ${colors.fg2}
+format-muted-foreground = ${colors.fg2}
 format-volume = <label-volume>
 label-volume =  %percentage%%
 label-muted = 
 
 [module/xkeyboard]
 type = internal/xkeyboard
+format-foreground = ${colors.fg1}
 blacklist-0 = num lock
 blacklist-1 = caps lock
 label-layout =  %layout%
@@ -160,6 +165,7 @@ format-margin = 2
 
 [module/temperature]
 type = internal/temperature
+format-foreground = ${colors.fg1}
 thermal-zone = 0
 warn-temperature = 60
 format = <ramp> <label>
@@ -172,101 +178,60 @@ ramp-1 = 
 
 [module/date]
 type = internal/date
+format-foreground = ${colors.fg1}
 interval = 1
-date = " %d/%m/%Y"
+date = "%d/%m/%Y"
+format-margin = 2
+format-prefix = 
+label = " %date%"
+
+[module/time]
+type = internal/date
+format-foreground = ${colors.fg2}
+interval = 1
 time = "%H:%M:%S"
 format-prefix = 
-format-margin = 2
-label = %date% %time%
+label = " %time%"
 
 [module/battery]
 type = internal/battery
-
-; This is useful in case the battery never reports 100% charge
+format-charging-foreground = ${colors.fg2}
+format-discharging-foreground = ${colors.fg2}
+format-full-foreground = ${colors.fg2}
 full-at = 99
-
-; Use the following command to list batteries and adapters:
-; $ ls -1 /sys/class/power_supply/
 battery = BAT0
 adapter = AC
-
-; If an inotify event haven't been reported in this many
-; seconds, manually poll for new values.
-;
-; Needed as a fallback for systems that don't report events
-; on sysfs/procfs.
-;
-; Disable polling by setting the interval to 0.
-;
-; Default: 5
 poll-interval = 5
-
-; Available tags:
-;   <label-charging> (default)
-;   <bar-capacity>
-;   <ramp-capacity>
-;   <animation-charging>
 format-charging = <animation-charging> <label-charging>
-
-; Available tags:
-;   <label-discharging> (default)
-;   <bar-capacity>
-;   <ramp-capacity>
-;   <animation-discharging>
 format-discharging = <ramp-capacity> <label-discharging>
-
-; Available tags:
-;   <label-full> (default)
-;   <bar-capacity>
-;   <ramp-capacity>
 format-full = <ramp-capacity> <label-full>
-
-; Available tokens:
-;   %percentage% (default)
-;   %time%
-;   %consumption% (shows current charge rate in watts)
 label-charging = %percentage%%
-
-; Available tokens:
-;   %percentage% (default)
-;   %time%
-;   %consumption% (shows current discharge rate in watts)
 label-discharging = %percentage%%
-
-; Available tokens:
-;   %percentage% (default)
 label-full = %percentage%%
-
-; Only applies if <ramp-capacity> is used
 ramp-capacity-0 = 
 ramp-capacity-1 = 
 ramp-capacity-2 = 
 ramp-capacity-3 = 
 ramp-capacity-4 = 
-
-; Only applies if <bar-capacity> is used
 bar-capacity-width = 10
-
-; Only applies if <animation-charging> is used
 animation-charging-0 = 
 animation-charging-1 = 
 animation-charging-2 = 
 animation-charging-3 = 
 animation-charging-4 = 
-; Framerate in milliseconds
 animation-charging-framerate = 750
-
-; Only applies if <animation-discharging> is used
 animation-discharging-0 = 
 animation-discharging-1 = 
 animation-discharging-2 = 
 animation-discharging-3 = 
 animation-discharging-4 = 
-; Framerate in milliseconds
 animation-discharging-framerate = 500
 
 [module/network-wifi]
 type = internal/network
+format-connected-foreground = ${colors.fg2}
+format-disconnected-foreground = ${colors.fg2}
+format-packetloss-foreground = ${colors.fg2}
 format-margin = 2
 interface = wlp3s0
 label-connected = 
@@ -274,10 +239,23 @@ label-disconnected =
 
 [module/network-lan]
 type = internal/network
+format-connected-foreground = ${colors.fg2}
+format-disconnected-foreground = ${colors.fg2}
+format-packetloss-foreground = ${colors.fg2}
 format-margin = 2
 interface = enp0s25
 label-connected = 
 label-disconnected =
+
+[module/memory]
+type = internal/memory
+format-foreground = ${colors.fg1}
+label = " RAM %gb_used%/%gb_total%"
+
+[module/swap]
+type = internal/memory
+format-foreground = ${colors.fg2}
+label = " SWAP %gb_swap_used%/%gb_swap_total%"
 
 [settings]
 screenchange-reload = true
