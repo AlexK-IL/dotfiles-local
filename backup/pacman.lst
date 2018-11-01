@@ -127,8 +127,10 @@ playonlinux
 procps-ng
 psmisc
 pulseaudio
+python-pipenv
 python-pywal
 python-regex
+python-virtualenvwrapper
 python-xdg
 qt5-3d
 qt5-base
@@ -206,6 +208,11 @@ usbutils
 util-linux
 vi
 vim
+vim-nerdcommenter
+vim-nerdtree
+vim-supertab
+vim-syntastic
+vim-ultisnips
 w3m
 weechat
 which
