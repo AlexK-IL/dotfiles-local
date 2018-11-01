@@ -146,19 +146,19 @@ mode "$system_mode" {
 bindsym $mod+Shift+x mode "$system_mode"
 
 # audio
-set $audio_mode Audio volume: [i]ncrease | [d]ecrease  | toggle [m]ute
-mode "$audio_mode" {
-        bindsym i exec amixer set Master 5%+
-        bindsym + exec amixer set Master 5%+
-        bindsym d exec amixer set Master 5%-
-        bindsym - exec amixer set Master 5%-
-        bindsym m exec amixer set Master toggle
-	
-        # back to normal: Enter or Escape
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
-bindsym $mod+a mode "$audio_mode"
+#set $audio_mode Audio volume: [i]ncrease | [d]ecrease  | toggle [m]ute
+#mode "$audio_mode" {
+#        bindsym i exec amixer set Master 5%+
+#        bindsym + exec amixer set Master 5%+
+#        bindsym d exec amixer set Master 5%-
+#        bindsym - exec amixer set Master 5%-
+#        bindsym m exec amixer set Master toggle
+#	
+#        # back to normal: Enter or Escape
+#        bindsym Return mode "default"
+#        bindsym Escape mode "default"
+#}
+#bindsym $mod+a mode "$audio_mode"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
