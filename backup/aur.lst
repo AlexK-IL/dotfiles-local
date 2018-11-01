@@ -74,6 +74,7 @@ ttf-openlogos-archupdate
 ttf-unifont
 urlview
 vim-fzf-git
+vim-nerdtree-git
 vim-youcompleteme-git
 vundle
 xkb-switch

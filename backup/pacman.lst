@@ -209,7 +209,6 @@ util-linux
 vi
 vim
 vim-nerdcommenter
-vim-nerdtree
 vim-supertab
 vim-syntastic
 vim-ultisnips
