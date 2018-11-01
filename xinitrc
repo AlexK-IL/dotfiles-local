@@ -26,7 +26,7 @@ compton --daemon --shadow --fading
 redshift -l 32.333:34.86 &> /dev/null &
 
 # Start a browser
-firefox &
+firefox-developer-edition &
 
 # Start a terminal
 konsole &
