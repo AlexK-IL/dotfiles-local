@@ -59,7 +59,7 @@ font-0 = xos4Terminus:pixelsize=14;0
 font-1 = FontAwesome:pixelsize=14;0
 
 modules-left = 
-modules-center = volume xkeyboard network-wifi network-lan memory swap temperature network battery date time
+modules-center = T3 volume xkeyboard network-wifi network-lan memory swap temperature network battery date time
 modules-right = 
 
 tray-position = right
@@ -148,15 +148,24 @@ type = internal/xwindow
 format-margin = 2
 
 [module/volume]
-type = internal/pulseaudio
+type = internal/alsa
 format-volume-foreground = ${colors.fg2}
 format-muted-foreground = ${colors.fg2}
 format-volume = <ramp-volume> <label-volume>
 label-volume =  %percentage%%
-label-muted = 
+label-muted = " "
 ramp-volume-0 = 🔈
 ramp-volume-1 = 🔉
 ramp-volume-2 = 🔊
+
+[module/T3]
+type = internal/pulseaudio
+sink = <bluez_sink.17_02_06_E7_08_43.a2dp_sink>
+format-volume-foreground = ${colors.fg1}
+format-muted-foreground = ${colors.fg1}
+format-volume = <label-volume>
+label-volume =  %percentage%%
+label-muted = " "
 
 [module/xkeyboard]
 type = internal/xkeyboard
