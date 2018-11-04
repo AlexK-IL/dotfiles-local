@@ -163,8 +163,10 @@ vagrant
 vde2
 vi
 vim
+vim-gitgutter
 vim-nerdcommenter
 vim-supertab
+vim-surround
 vim-syntastic
 vim-ultisnips
 virtualbox
