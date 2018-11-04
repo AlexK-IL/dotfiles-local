@@ -1,5 +1,4 @@
 aurman
-bluemix-cli
 cdm-git
 cower
 docker-machine-kvm
@@ -38,4 +37,7 @@ transmission-remote-cli-git
 ttf-font-awesome-4
 urlview
 vim-fzf-git
+vim-nerdtree-git
+vim-youcompleteme-git
+vundle
 wpa_supplicant_gui

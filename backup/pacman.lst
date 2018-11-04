@@ -12,6 +12,7 @@ binutils
 bison
 blueman
 bluez
+bluez-hid2hci
 bluez-utils
 bzip2
 compton
@@ -42,6 +43,7 @@ gawk
 gcc
 gcc-libs
 gettext
+gimp
 git
 glibc
 gradle
@@ -92,6 +94,7 @@ maven
 mdadm
 mediainfo
 mesa
+mpv
 mupdf
 nano
 netbeans
@@ -160,6 +163,10 @@ vagrant
 vde2
 vi
 vim
+vim-nerdcommenter
+vim-supertab
+vim-syntastic
+vim-ultisnips
 virtualbox
 virtualbox-ext-vnc
 virtualbox-guest-iso
@@ -182,5 +189,6 @@ xorg-xinit
 xorg-xrandr
 xterm
 yajl
+youtube-dl
 zsh
 zsh-completions
