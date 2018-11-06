@@ -9,6 +9,8 @@ gnome-vfs
 gnome-vfs-perl
 gnomecanvas-perl
 gstreamer0.10
+jupyterlab
+jupyterlab_launcher
 libbonobo
 libbonoboui
 libgnome

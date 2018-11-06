@@ -74,6 +74,7 @@ jdk8-openjdk
 jfsutils
 jre8-openjdk
 jre8-openjdk-headless
+jupyter-notebook
 konsole
 lastpass-cli
 less
