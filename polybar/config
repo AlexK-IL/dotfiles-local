@@ -58,8 +58,8 @@ border-color = #00000000
 font-0 = xos4Terminus:pixelsize=14;0
 font-1 = FontAwesome:pixelsize=14;0
 
-modules-left = 
-modules-center = T3 volume xkeyboard network-wifi network-lan memory swap temperature network battery date time
+modules-left = T3 volume xkeyboard network-wifi network-lan memory swap filesystem temperature network battery date time
+modules-center = 
 modules-right = 
 
 tray-position = right
@@ -177,7 +177,7 @@ format-margin = 2
 
 [module/temperature]
 type = internal/temperature
-format-foreground = ${colors.fg1}
+format-foreground = ${colors.fg2}
 thermal-zone = 0
 warn-temperature = 80
 format = <ramp> <label>
@@ -190,7 +190,7 @@ ramp-1 = 
 
 [module/date]
 type = internal/date
-format-foreground = ${colors.fg1}
+format-foreground = ${colors.fg2}
 interval = 1
 date = "%d/%m/%Y"
 format-margin = 2
@@ -199,7 +199,7 @@ label = " %date%"
 
 [module/time]
 type = internal/date
-format-foreground = ${colors.fg2}
+format-foreground = ${colors.fg1}
 interval = 1
 time = "%H:%M:%S"
 format-prefix = 
@@ -207,9 +207,9 @@ label = " %time%"
 
 [module/battery]
 type = internal/battery
-format-charging-foreground = ${colors.fg2}
-format-discharging-foreground = ${colors.fg2}
-format-full-foreground = ${colors.fg2}
+format-charging-foreground = ${colors.fg1}
+format-discharging-foreground = ${colors.fg1}
+format-full-foreground = ${colors.fg1}
 full-at = 99
 battery = BAT0
 adapter = AC
@@ -268,6 +268,16 @@ label = " RAM %gb_used%/%gb_total%"
 type = internal/memory
 format-foreground = ${colors.fg2}
 label = " SWAP %gb_swap_used%/%gb_swap_total%"
+
+[module/filesystem]
+type = internal/fs
+
+; Mountpoints to display
+mount-0 = /
+mount-1 = /mnt/data
+spacing=0
+format-mounted-foreground = ${colors.fg1}
+label-mounted = " %mountpoint%: %used%/%total%"
 
 [settings]
 screenchange-reload = true
