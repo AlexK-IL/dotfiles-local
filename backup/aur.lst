@@ -1,3 +1,4 @@
+apache-spark
 aurman
 cdm-git
 cower
@@ -9,6 +10,8 @@ gnome-vfs
 gnome-vfs-perl
 gnomecanvas-perl
 gstreamer0.10
+hadoop
+ido
 jupyterlab
 jupyterlab_launcher
 libbonobo
@@ -34,7 +37,6 @@ shutter
 simple-mtpfs
 spotify
 terminus-font-ttf
-thunar-git
 transmission-remote-cli-git
 ttf-font-awesome-4
 urlview
@@ -44,3 +46,4 @@ vim-nerdtree-git
 vim-youcompleteme-git
 vundle
 wpa_supplicant_gui
+xfce4-indicator-plugin

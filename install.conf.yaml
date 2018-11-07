@@ -8,7 +8,7 @@
 - link:
     ~/.dotfiles-local: ''
     /etc/hostname:
-    ~/.xinitrc:
+    ~/.x-sessions:
     ~/.cdmrc: cdmrc_local
     ~/.shell_local: 
     ~/.gitconfig_local:

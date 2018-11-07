@@ -15,7 +15,8 @@
 #   '/usr/bin/cdm ~/.submenu.cdmrc'  # or go to a submenu :)
 # )
 binlist=(
-    'startx ~/.xinitrc'
+    'startx ~/.x-sessions/xfce4-session'
+    'startx ~/.x-sessions/i3-session'
     '/bin/zsh'
     'exit'
     '/bin/reboot'
@@ -28,6 +29,7 @@ binlist=(
 # (Continued example:)
 # namelist=('X session' Console FBTerm 'Sub menu')
 namelist=(
+    'xfce4'
     'i3'
     'Shell'
     'Exit'
@@ -41,7 +43,7 @@ namelist=(
 #
 # (Continued example:)
 # flaglist=(X C C C)
-flaglist=(C C C C C)
+flaglist=(C C C C C C)
 
 # Style for the cdm dialog, which is printed with dialog(1).
 # Default to unset, causing dialog(1) to use the system wide default.
