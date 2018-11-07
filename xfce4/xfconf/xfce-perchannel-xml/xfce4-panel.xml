@@ -19,6 +19,10 @@
         <value type="int" value="6"/>
         <value type="int" value="2"/>
       </property>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="85"/>
+      <property name="background-alpha" type="uint" value="100"/>
+      <property name="background-style" type="uint" value="1"/>
     </property>
   </property>
   <property name="plugins" type="empty">
