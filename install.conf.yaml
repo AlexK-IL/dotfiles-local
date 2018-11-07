@@ -9,6 +9,7 @@
     ~/.dotfiles-local: ''
     /etc/hostname:
     ~/.x-sessions:
+    ~/.config/xfce4:
     ~/.cdmrc: cdmrc_local
     ~/.shell_local: 
     ~/.gitconfig_local:
