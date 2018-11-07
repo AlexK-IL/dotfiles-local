@@ -4,11 +4,13 @@ aosp-devel
 aurman
 bicon-git
 burpsuite
+canta-gtk-theme-git
 cdm-git
 cower
 culmus
 expac-git
 ffmpeg-compat-54
+flat-remix-git
 git-repo
 glade-gtk2
 gnome-mime-data
@@ -40,6 +42,8 @@ mecab-ipadic
 namebench
 ncurses5-compat-libs
 nerd-fonts-complete-mono-glyphs
+numix-circle-icon-theme-git
+numix-icon-theme-git
 oh-my-zsh-git
 oomox
 orbit2
@@ -73,6 +77,7 @@ ttf-font-awesome-4
 ttf-openlogos-archupdate
 ttf-unifont
 urlview
+vim-commentary
 vim-fzf-git
 vim-nerdtree-git
 vim-youcompleteme-git
