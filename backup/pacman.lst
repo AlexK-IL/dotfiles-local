@@ -62,6 +62,7 @@ gvfs-nfs
 gvfs-smb
 gzip
 highlight
+htop
 i3-gaps
 i3blocks
 i3lock
@@ -145,6 +146,7 @@ s-nail
 scrot
 sed
 shadow
+strace
 sudo
 sysfsutils
 systemd
