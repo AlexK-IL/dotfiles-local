@@ -5,6 +5,8 @@ alsa-utils
 android-tools
 android-udev
 anki
+arc-gtk-theme
+arc-icon-theme
 arj
 ark
 atool
@@ -26,6 +28,7 @@ diffutils
 e2fsprogs
 easystroke
 efibootmgr
+elementary-icon-theme
 fakeroot
 feh
 file
@@ -195,6 +198,7 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
+thunderbird
 tig
 tk
 tmux
