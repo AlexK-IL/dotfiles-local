@@ -1,9 +1,11 @@
 apache-spark
 aurman
+canta-gtk-theme-git
 cdm-git
 cower
 docker-machine-kvm
 expac-git
+flat-remix-git
 gnome-mime-data
 gnome-perl
 gnome-vfs
@@ -23,6 +25,8 @@ libxfce4ui-devel
 libxfce4util-devel
 minishift-bin
 ncurses5-compat-libs
+numix-circle-icon-theme-git
+numix-icon-theme-git
 oh-my-zsh-git
 openshift-origin-server-bin
 orbit2
