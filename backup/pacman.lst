@@ -72,6 +72,8 @@ iproute2
 iputils
 jfsutils
 kakasi
+kde-cli-tools
+kdeconnect
 konsole
 lastpass-cli
 less
@@ -90,6 +92,7 @@ licenses
 linux
 logrotate
 lrzip
+lsb-release
 lsof
 lvm2
 m4
@@ -186,6 +189,7 @@ s-nail
 scrot
 sed
 shadow
+sshfs
 sudo
 sysfsutils
 systemd
@@ -216,12 +220,15 @@ unarchiver
 unarj
 usbutils
 util-linux
+vagrant
 vi
 vim
 vim-nerdcommenter
 vim-supertab
 vim-syntastic
 vim-ultisnips
+virtualbox
+virtualbox-host-modules-arch
 w3m
 weechat
 which

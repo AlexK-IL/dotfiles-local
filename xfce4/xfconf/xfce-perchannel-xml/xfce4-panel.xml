@@ -14,7 +14,6 @@
         <value type="int" value="3"/>
         <value type="int" value="15"/>
         <value type="int" value="4"/>
-        <value type="int" value="10"/>
         <value type="int" value="7"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
@@ -41,9 +40,11 @@
         <value type="string" value="+shutdown"/>
         <value type="string" value="+restart"/>
         <value type="string" value="+separator"/>
-        <value type="string" value="+logout"/>
-        <value type="string" value="-logout-dialog"/>
+        <value type="string" value="-logout"/>
+        <value type="string" value="+logout-dialog"/>
       </property>
+      <property name="ask-confirmation" type="bool" value="true"/>
+      <property name="appearance" type="uint" value="1"/>
     </property>
     <property name="plugin-3" type="string" value="tasklist"/>
     <property name="plugin-15" type="string" value="separator">
@@ -52,14 +53,19 @@
     </property>
     <property name="plugin-4" type="string" value="pager"/>
     <property name="plugin-5" type="string" value="clock"/>
-    <property name="plugin-6" type="string" value="systray"/>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="names-visible" type="array">
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="shutter"/>
+      </property>
+    </property>
     <property name="plugin-7" type="string" value="xkb">
       <property name="display-type" type="uint" value="1"/>
       <property name="display-name" type="uint" value="1"/>
       <property name="display-scale" type="uint" value="80"/>
     </property>
     <property name="plugin-8" type="string" value="weather"/>
-    <property name="plugin-10" type="string" value="screenshooter"/>
     <property name="plugin-11" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
     </property>
