@@ -69,6 +69,7 @@
     <property name="plugin-22" type="string" value="power-manager-plugin"/>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="spotify"/>
     </property>
     <property name="plugin-8" type="string" value="screenshooter"/>
     <property name="plugin-10" type="string" value="weather"/>

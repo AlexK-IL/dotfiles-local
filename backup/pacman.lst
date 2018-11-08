@@ -79,6 +79,8 @@ jfsutils
 jre8-openjdk
 jre8-openjdk-headless
 jupyter-notebook
+kde-cli-tools
+kdeconnect
 konsole
 lastpass-cli
 less
@@ -146,6 +148,7 @@ s-nail
 scrot
 sed
 shadow
+sshfs
 strace
 sudo
 sysfsutils
