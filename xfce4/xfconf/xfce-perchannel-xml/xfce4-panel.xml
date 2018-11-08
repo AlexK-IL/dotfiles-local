@@ -16,8 +16,11 @@
         <value type="int" value="4"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
+        <value type="int" value="8"/>
         <value type="int" value="17"/>
         <value type="int" value="22"/>
+        <value type="int" value="7"/>
+        <value type="int" value="10"/>
         <value type="int" value="2"/>
       </property>
     </property>
@@ -52,6 +55,7 @@
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
+        <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="blueman-applet"/>
         <value type="string" value="wicd-client.py"/>
       </property>
@@ -63,5 +67,10 @@
       <property name="display-scale" type="uint" value="100"/>
     </property>
     <property name="plugin-22" type="string" value="power-manager-plugin"/>
+    <property name="plugin-7" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+    </property>
+    <property name="plugin-8" type="string" value="screenshooter"/>
+    <property name="plugin-10" type="string" value="weather"/>
   </property>
 </channel>
