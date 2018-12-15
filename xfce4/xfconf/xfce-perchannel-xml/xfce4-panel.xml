@@ -55,9 +55,11 @@
     <property name="plugin-5" type="string" value="clock"/>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
+        <value type="string" value="clipman"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="redshift-gtk"/>
         <value type="string" value="shutter"/>
+        <value type="string" value="thunar"/>
       </property>
     </property>
     <property name="plugin-7" type="string" value="xkb">
@@ -68,6 +70,7 @@
     <property name="plugin-8" type="string" value="weather"/>
     <property name="plugin-11" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="spotify"/>
     </property>
   </property>
 </channel>
