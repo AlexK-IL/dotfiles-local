@@ -16,7 +16,6 @@
 # )
 binlist=(
     'startx ~/.x-sessions/xfce4-session'
-    'startx ~/.x-sessions/i3-session'
     '/bin/zsh'
     'exit'
     '/bin/reboot'
@@ -30,7 +29,6 @@ binlist=(
 # namelist=('X session' Console FBTerm 'Sub menu')
 namelist=(
     'xfce4'
-    'i3'
     'Shell'
     'Exit'
     'Reboot'
