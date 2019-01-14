@@ -15,12 +15,8 @@
     ~/.gitconfig_local:
     ~/.ssh/config: sshconfig
     ~/.tmux_local.conf:
-    ~/.config/i3/config: i3config
-    ~/.config/polybar:
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - [mkdir -p ~/gitprojects, Creating gitprojects folder ]
     - [mkdir -p ~/mnt, Creating ~/mnt folder for mounting ]
-    - [cp services/* /etc/systemd/system/, Copying custom services ]
-    - [systemctl enable lock.service, Enabling lock after wakeup service ]
