@@ -8,7 +8,9 @@
       <value type="string" value="KDE Connect"/>
       <value type="string" value="org.kde.konsole"/>
       <value type="string" value="Spotify"/>
+      <value type="string" value="thunar-volman"/>
       <value type="string" value="Thunderbird"/>
+      <value type="string" value="udiskie"/>
       <value type="string" value="Xfce volume control"/>
       <value type="string" value="xfce4-power-manager"/>
     </property>

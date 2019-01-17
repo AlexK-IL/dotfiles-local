@@ -32,6 +32,8 @@ glibc
 grep
 grub
 gtk-xfce-engine
+gvfs
+gvfs-mtp
 gzip
 inetutils
 iproute2
@@ -70,6 +72,7 @@ pulseaudio
 pulseaudio-alsa
 python
 python-pip
+python2-virtualenv
 redshift
 reiserfsprogs
 ristretto
