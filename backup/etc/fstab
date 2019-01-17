@@ -9,5 +9,4 @@ UUID=c0d59c85-d4b7-4df4-9cd6-043f0762872b	/         	ext4      	rw,relatime,data
 UUID=de9936e1-81fb-4de0-a006-fd04af78ee7d	/boot     	ext4      	rw,relatime,data=ordered	0 2
 
 # /dev/sdb1
-#UUID=15AC3957117D4478	/mnt/data 	ntfs      	rw,nosuid,nodev,user_id=0,group_id=0,allow_other,blksize=4096	0 0
-
+UUID=15AC3957117D4478	/mnt/data 	ntfs-3g      	defaults	0 0
