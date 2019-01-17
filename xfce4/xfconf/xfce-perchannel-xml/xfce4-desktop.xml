@@ -7,7 +7,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="3"/>
-          <property name="last-image" type="string" value="/home/alex/pictures/kanji/JLPT_N3_00358.png"/>
+          <property name="last-image" type="string" value="/home/alex/pictures/kanji/JLPT_N4_00257.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="true"/>
           <property name="backdrop-cycle-random-order" type="bool" value="true"/>
           <property name="backdrop-cycle-timer" type="uint" value="3"/>
@@ -37,7 +37,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="3"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/ohio-sky.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/alone.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="true"/>
           <property name="backdrop-cycle-timer" type="uint" value="3"/>
           <property name="backdrop-cycle-random-order" type="bool" value="true"/>
