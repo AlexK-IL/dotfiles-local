@@ -23,6 +23,9 @@
         <value type="int" value="5"/>
         <value type="int" value="2"/>
       </property>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="output-name" type="string" value="monitor-0"/>
+      <property name="length-adjust" type="bool" value="true"/>
     </property>
   </property>
   <property name="plugins" type="empty">
