@@ -8,7 +8,6 @@ culmus
 ffmpeg-compat-54
 flat-remix-git
 git-repo
-glade-gtk2
 gnome-mime-data
 gnome-perl
 gnome-vfs-nosmb
@@ -21,7 +20,6 @@ hugs
 kanjistrokeorders-ttf
 kcc
 kindlegen
-lcms
 lib32-ncurses5-compat-libs
 libavutil-52
 libbonobo
