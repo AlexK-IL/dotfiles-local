@@ -1,14 +1,10 @@
-android-sdk-platform-tools
-anydesk
 aosp-devel
-aurman
 bicon-git
 burpsuite
 canta-gtk-theme-git
 cdm-git
 cower
 culmus
-expac-git
 ffmpeg-compat-54
 flat-remix-git
 git-repo
@@ -22,7 +18,6 @@ goocanvas1
 google-chrome
 gtk-theme-numix-solarized
 hugs
-i3lock-fancy-git
 kanjistrokeorders-ttf
 kcc
 kindlegen
@@ -47,7 +42,6 @@ numix-icon-theme-git
 oh-my-zsh-git
 oomox
 orbit2
-pacaur
 papirus-icon-theme-git
 perl-cpanel-json-xs
 perl-extract-url-git
@@ -57,11 +51,11 @@ perl-gtk2-imageview
 perl-gtk2-unique
 perl-json-maybexs
 perl-uri-find
-polybar-git
 python-github3
 python-gitlab
 python-gogs-client
 python-pybitbucket_fork-git
+python-pystache
 python-slugify
 python2-graphy
 qt5-webengine-widevine
@@ -69,10 +63,8 @@ qtwebflix-git
 ranger-git
 shutter
 siji-git
-simple-mtpfs
 spotify
 terminus-font-ttf
-transmission-remote-cli-git
 ttf-font-awesome-4
 ttf-openlogos-archupdate
 ttf-unifont
@@ -84,3 +76,4 @@ vim-youcompleteme-git
 vundle
 xkb-switch
 xml2
+yay

@@ -1,21 +1,8 @@
-# Wallpaper and colorschemes
-#wal -R
-#betterlockscreen --update ~/bg.jpg
-
-# Xresources
-xrdb .Xresources -merge
-
 # Turn numlock on
 numlockx on
 
 # Start devmon to automount USB devices
 devmon &
-
-# Start transmission daemon
-transmission-daemon
-
-# Start a compton daemon
-compton --daemon --shadow --fading
 
 # Start redshift
 #redshift -l 32.333:34.86 &> /dev/null &
