@@ -4,9 +4,15 @@ automake
 bash
 binutils
 bison
+blueman
+bluez
+bluez-utils
 bzip2
 coreutils
 cryptsetup
+cups
+cups-pdf
+cups-pk-helper
 device-mapper
 dhclient
 dhcpcd
@@ -54,6 +60,7 @@ man-db
 man-pages
 mdadm
 mousepad
+mupdf
 nano
 netctl
 ntfs-3g
@@ -71,6 +78,7 @@ procps-ng
 psmisc
 pulseaudio
 pulseaudio-alsa
+pulseaudio-bluetooth
 python
 python-pip
 python2-virtualenv
@@ -83,6 +91,7 @@ shadow
 slock
 sudo
 sysfsutils
+system-config-printer
 systemd-sysvcompat
 tar
 texinfo
