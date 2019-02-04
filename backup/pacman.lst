@@ -41,6 +41,7 @@ gtk-xfce-engine
 gvfs
 gvfs-mtp
 gzip
+hardinfo
 inetutils
 iproute2
 iputils
@@ -83,6 +84,7 @@ python
 python-pip
 python2-virtualenv
 redshift
+reflector
 reiserfsprogs
 ristretto
 s-nail
@@ -113,6 +115,7 @@ vim-supertab
 vim-surround
 vim-syntastic
 vim-ultisnips
+wget
 which
 wicd
 wicd-gtk

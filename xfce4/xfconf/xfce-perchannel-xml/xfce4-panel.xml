@@ -85,5 +85,15 @@
       <property name="flat-buttons" type="bool" value="false"/>
     </property>
     <property name="plugin-20" type="string" value="whiskermenu"/>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="inhibit" type="bool" value="true"/>
+      </property>
+      <property name="settings" type="empty">
+        <property name="save-on-quit" type="bool" value="false"/>
+        <property name="max-images-in-history" type="uint" value="0"/>
+        <property name="history-ignore-primary-clipboard" type="bool" value="true"/>
+      </property>
+    </property>
   </property>
 </channel>
