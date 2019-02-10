@@ -1,3 +1,5 @@
+adobe-source-han-sans-otc-fonts
+adobe-source-han-serif-otc-fonts
 archlinux-themes-slim
 autoconf
 automake
@@ -26,6 +28,7 @@ filesystem
 findutils
 firefox
 flex
+font-mathematica
 fzf
 garcon
 gawk
@@ -64,6 +67,7 @@ mousepad
 mupdf
 nano
 netctl
+noto-fonts-emoji
 ntfs-3g
 numlockx
 openssh
@@ -97,11 +101,14 @@ system-config-printer
 systemd-sysvcompat
 tar
 texinfo
+texlive-core
 thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
 tmux
+ttf-croscore
+ttf-ubuntu-font-family
 tumbler
 udevil
 unzip
