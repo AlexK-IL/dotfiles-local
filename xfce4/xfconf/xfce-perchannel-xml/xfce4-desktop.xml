@@ -7,7 +7,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="3"/>
-          <property name="last-image" type="string" value="/home/alex/pictures/kanji/JLPT_N3_00307.png"/>
+          <property name="last-image" type="string" value="/home/alex/pictures/kanji/JLPT_N3_00639.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="true"/>
           <property name="backdrop-cycle-random-order" type="bool" value="true"/>
           <property name="backdrop-cycle-timer" type="uint" value="3"/>
@@ -42,7 +42,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="3"/>
-          <property name="last-image" type="string" value="/home/alex/pictures/kanji/JLPT_N3_00286.png"/>
+          <property name="last-image" type="string" value="/home/alex/pictures/kanji/JLPT_N4_00254.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="true"/>
           <property name="backdrop-cycle-timer" type="uint" value="3"/>
           <property name="backdrop-cycle-random-order" type="bool" value="true"/>
@@ -74,6 +74,8 @@
         </property>
       </property>
     </property>
+    <property name="single-workspace-mode" type="bool" value="true"/>
+    <property name="single-workspace-number" type="int" value="0"/>
   </property>
   <property name="desktop-icons" type="empty">
     <property name="style" type="int" value="0"/>

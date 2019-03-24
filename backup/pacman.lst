@@ -48,6 +48,7 @@ hardinfo
 inetutils
 iproute2
 iputils
+irssi
 iw
 jfsutils
 konsole
@@ -92,6 +93,7 @@ reflector
 reiserfsprogs
 ristretto
 s-nail
+seahorse
 sed
 shadow
 slock
