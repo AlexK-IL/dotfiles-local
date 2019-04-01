@@ -89,6 +89,7 @@ patch
 pciutils
 perl
 pkgconf
+powerline
 procps-ng
 psmisc
 pulseaudio

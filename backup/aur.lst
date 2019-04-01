@@ -11,6 +11,7 @@ opensiddur-hebrew-fonts
 pipdeptree
 powerline-fonts-git
 protonmail-bridge
+python-powerline-gitstatus
 qogir-gtk-theme-git
 rename
 spaceship-prompt-git
@@ -24,5 +25,4 @@ ttf-oswald
 ttf-quintessential
 ttf-signika
 urlview
-vundle
 yay
