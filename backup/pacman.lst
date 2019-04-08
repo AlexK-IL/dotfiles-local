@@ -76,6 +76,7 @@ mpv
 mupdf
 nano
 netctl
+noto-fonts-cjk
 noto-fonts-emoji
 ntfs-3g
 ntp
@@ -120,6 +121,7 @@ thunar-media-tags-plugin
 thunar-volman
 tmux
 ttf-croscore
+ttf-liberation
 ttf-ubuntu-font-family
 tumbler
 udevil
