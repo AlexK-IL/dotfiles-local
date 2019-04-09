@@ -3,6 +3,7 @@ lat=32.066700
 lon=34.766701
 msl=11
 timezone=Asia/Jerusalem
+offset=+03:00
 cache_file_max_age=172800
 power_saving=true
 units_temperature=0
