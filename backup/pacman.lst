@@ -126,6 +126,9 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
 tmux
+transmission-cli
+transmission-gtk
+transmission-remote-gtk
 ttf-croscore
 ttf-hannom
 ttf-liberation
