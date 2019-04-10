@@ -35,6 +35,7 @@
     <property name="plugin-5" type="string" value="clock">
       <property name="timezone" type="string" value="Israel"/>
       <property name="mode" type="uint" value="2"/>
+      <property name="tooltip-format" type="string" value="%d/%m/%y"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
