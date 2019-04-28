@@ -41,10 +41,11 @@
       <property name="names-visible" type="array">
         <value type="string" value="protonmail bridge"/>
         <value type="string" value="birdtray"/>
-        <value type="string" value="clipman"/>
+        <value type="string" value="thunar"/>
         <value type="string" value="kde connect indicator"/>
         <value type="string" value="shutter"/>
-        <value type="string" value="thunar"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="transmission"/>
         <value type="string" value="pidgin"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="wicd-client.py"/>

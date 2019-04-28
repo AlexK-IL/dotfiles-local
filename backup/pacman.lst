@@ -21,6 +21,8 @@ blueman
 bluez
 bluez-utils
 bzip2
+cdrdao
+cdrtools
 cmake
 coreutils
 cryptsetup
@@ -32,6 +34,7 @@ dhclient
 dhcpcd
 diffutils
 docker
+dvd+rw-tools
 e2fsprogs
 exo
 fakeroot
@@ -66,6 +69,7 @@ jdk8-openjdk
 jfsutils
 konsole
 less
+libisoburn
 libtool
 licenses
 linux
@@ -97,6 +101,7 @@ pciutils
 perl
 pkgconf
 powerline
+powerline-fonts
 procps-ng
 psmisc
 pulseaudio
