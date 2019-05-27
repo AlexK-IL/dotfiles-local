@@ -11,6 +11,7 @@ archlinux-themes-slim
 arduino
 arduino-avr-core
 arduino-docs
+atool
 autoconf
 automake
 bash
@@ -25,6 +26,7 @@ cdrdao
 cdrtools
 cmake
 coreutils
+cpio
 cryptsetup
 cups
 cups-pdf
@@ -36,8 +38,10 @@ diffutils
 docker
 dvd+rw-tools
 e2fsprogs
+elinks
 exo
 fakeroot
+ffmpegthumbnailer
 file
 filesystem
 findutils
@@ -60,6 +64,7 @@ gvfs
 gvfs-mtp
 gzip
 hardinfo
+highlight
 inetutils
 iproute2
 iputils
@@ -76,11 +81,13 @@ linux
 linux-firmware
 logrotate
 lvm2
+lynx
 m4
 make
 man-db
 man-pages
 mdadm
+mediainfo
 mousepad
 mpv
 mupdf
@@ -91,6 +98,7 @@ noto-fonts-emoji
 ntfs-3g
 ntp
 numlockx
+odt2txt
 openssh
 orage
 pacman
@@ -99,6 +107,7 @@ parole
 patch
 pciutils
 perl
+perl-image-exiftool
 pkgconf
 powerline
 powerline-fonts
@@ -110,6 +119,7 @@ pulseaudio-bluetooth
 python
 python-pip
 python2-virtualenv
+ranger
 redshift
 reflector
 reiserfsprogs
@@ -140,12 +150,14 @@ ttf-liberation
 ttf-ubuntu-font-family
 tumbler
 udevil
+unace
 unrar
 unzip
 usbutils
 util-linux
 vi
 vim
+w3m
 wget
 which
 wicd

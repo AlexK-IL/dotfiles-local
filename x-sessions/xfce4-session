@@ -4,6 +4,9 @@ numlockx on
 # Start devmon to automount USB devices
 devmon &
 
+# Start protonmail bridge
+protonmail-bridge &
+
 # Start redshift
 redshift -l 32.333:34.86 &> /dev/null &
 

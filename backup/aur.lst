@@ -2,13 +2,14 @@ all-repository-fonts
 arc-icon-theme-git
 artwiz-fonts
 authy
-birdtray
 cdm-git
 fonts-tlwg
 foxitreader
 gstreamer0.10
 gstreamer0.10-base
 mugshot
+nerd-fonts-dejavu-complete
+nerd-fonts-source-code-pro
 oh-my-zsh-git
 pipdeptree
 protonmail-bridge
